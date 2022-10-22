@@ -1,42 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Reload Child component in Vue 3
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+These examples are part of my blog post [Sharing components between multiple Nuxt projects](https://www.trpkovski.com/2022/10/22/sharing-components-between-multiple-nuxt-projects/). Please refer to the blog article for detailed explanation.
 
-## Setup
+<p align="center">
+<img src="https://res.cloudinary.com/suv4o/image/upload/v1666403383/blog/nuxt-extends/nuxt-extends-640gif_ryloin" />
+</p>
 
-Make sure to install the dependencies:
+<h2 align="center">Getting Started is Simple</h2>
 
-```bash
-# yarn
+#### Install dependencies
+
+```
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
+#### Serve at localhost:3000
 
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
+```
+yarn dev
 ```
 
-## Production
+#### Building static project
 
-Build the application for production:
-
-```bash
-npm run build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
+yarn generate
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
